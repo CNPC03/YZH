@@ -1,3 +1,5 @@
+import random
+
 def gcd(a, b):
     while b != 0:
         a, b = b, a % b
@@ -17,10 +19,9 @@ def decrypt(private_key, ciphertext):
     return ''.join(plain)
 
 
-private_key = (fvby, rlf)
+private_key = (ubtily, ubtily)
 
+ciphertext = [ubtily, ubtily, ubtily, ..., ubtily]
 
-mensagem = "Lualy lujyfwalk tlzzhnl olyl"
-
-decrypted_message = decrypt(private_key, mensagem)
+decrypted_message = decrypt(private_key, ciphertext)
 print("Kljyfwalk tlzzhnl:", decrypted_message)
